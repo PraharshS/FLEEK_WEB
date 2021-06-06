@@ -120,21 +120,26 @@ header {
 .flexbox {
   display: flex;
   flex-direction: column;
-  padding: 1rem;
-  margin: 4rem 1rem;
+  padding: 1rem 2rem;
+  max-width: 1024px;
+  margin: 4rem auto;
+}
+
+.flexbox .text {
+  max-width: 400px;
 }
 
 .flexbox .text h2 {
-  font-size: 2rem;
+  font-size: 3.5rem;
   font-family: "MediumFont", sans-serif;
   text-align: left;
   color: #3adfc4;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .flexbox .text p {
   margin-bottom: 3rem;
-  font-size: 1rem;
+  font-size: 1.3rem;
   text-align: left;
   color: #57616b;
   font-family: "BoldFont", sans-serif;
@@ -142,9 +147,87 @@ header {
 
 .flexbox .image img {
   width: 90%;
-  max-width: 500px;
+  max-width: 400px;
   display: block;
   margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .flexbox {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .flexbox.reverse {
+    flex-direction: row-reverse !important;
+  }
+  .flexbox .text {
+    width: 40%;
+  }
+  .flexbox .text h2 {
+    font-size: 3rem;
+  }
+  .flexbox .text p {
+    font-size: 1rem;
+  }
+  .flexbox .image {
+    width: 50%;
+  }
+  .flexbox .image img {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .flexbox {
+    height: 60vh;
+  }
+  .flexbox .text {
+    width: 45%;
+    max-width: unset;
+  }
+  .flexbox .text h2 {
+    font-size: 4rem;
+  }
+  .flexbox .text p {
+    font-size: 1.5rem;
+  }
+  .flexbox .image {
+    height: 100%;
+    max-width: unset;
+    display: flex;
+    justify-content: center;
+  }
+  .flexbox .image img {
+    width: 100%;
+    max-width: unset;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .flexbox {
+    max-width: 1250px;
+  }
+  .flexbox .text h2 {
+    font-size: 5rem;
+  }
+  .flexbox .text p {
+    font-size: 1.7rem;
+  }
+  .flexbox .image {
+    height: 100%;
+  }
+  .flexbox .image img {
+    width: 100%;
+    max-width: auto;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .flexbox {
+    max-width: 1400px;
+  }
 }
 
 .buttons {
