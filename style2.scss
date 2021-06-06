@@ -113,10 +113,11 @@ header {
   padding: 1rem 2rem;
   max-width: 1024px;
   margin: 4rem auto;
+
   .text {
     max-width: 400px;
     h2 {
-      font-size: 3.5rem;
+      font-size: 2.5rem;
       font-family: "MediumFont", sans-serif;
       text-align: left;
       color: #3adfc4;
@@ -124,18 +125,19 @@ header {
     }
     p {
       margin-bottom: 3rem;
-      font-size: 1.3rem;
+      font-size: 1.2rem;
       text-align: left;
       color: #57616b;
       font-family: "BoldFont", sans-serif;
     }
   }
   .image img {
-    width: 90%;
+    width: 100%;
     max-width: 400px;
     display: block;
     margin-right: auto;
   }
+
   @media screen and (min-width: 768px) {
     flex-direction: row;
     &.reverse {
