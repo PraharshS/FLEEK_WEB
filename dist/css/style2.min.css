@@ -310,6 +310,14 @@ header {
   transition: none;
 }
 
+.slick-track {
+  display: flex !important;
+}
+
+.slick-slide {
+  height: inherit !important;
+}
+
 .buttons {
   z-index: 500;
   position: fixed;
