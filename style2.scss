@@ -235,16 +235,12 @@ header {
       transition: all 0.3s ease-in-out;
       border-radius: 0.5rem;
       width: 90%;
-      max-width: 280px;
+      max-width: 350px;
       margin: auto;
       margin: 1rem;
 
       padding-bottom: 1rem;
-      background-image: linear-gradient(
-        76.3deg,
-        rgba(44, 62, 78, 1) 12.6%,
-        rgba(69, 103, 131, 1) 82.8%
-      );
+      background: linear-gradient(to right, #161414, #434343);
       img {
         width: 100%;
         border-top-left-radius: 0.5rem;
