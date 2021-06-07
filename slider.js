@@ -4,6 +4,8 @@ $(".slider1").slick({
   infinite: true,
   speed: 300,
   slidesToShow: 7,
+  adaptiveHeight: true,
+  variableWidth: true,
   slidesToScroll: 1,
   responsive: [
     {
@@ -38,6 +40,8 @@ $(document).ready(function () {
     arrows: false,
     infinite: true,
     speed: 300,
+    adaptiveHeight: true,
+    variableWidth: true,
     slidesToShow: 7,
     slidesToScroll: 1,
     responsive: [
