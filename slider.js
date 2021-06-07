@@ -74,7 +74,7 @@ $(".slider1 .card").hover(function (index1, value1) {
   var current = this;
   $(".slider1 .card").each(function (index) {
     if (this !== current) {
-      $(this).css("opacity", "0.3");
+      $(this).css("opacity", "0.5");
       $(this).css("transform", "scale(1)");
     }
   });
