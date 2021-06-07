@@ -214,6 +214,7 @@ header {
 }
 
 .teamSection {
+  width: 100%;
   padding: 4rem 0;
   margin: 0;
   background: white;
@@ -266,7 +267,9 @@ header {
     }
   }
 }
-
+.slick-slider div {
+  transition: none;
+}
 .buttons {
   z-index: 500;
   position: fixed;

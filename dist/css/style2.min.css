@@ -237,6 +237,7 @@ header {
 }
 
 .teamSection {
+  width: 100%;
   padding: 4rem 0;
   margin: 0;
   background: white;
@@ -295,6 +296,10 @@ header {
   text-align: center;
   margin-bottom: 0.2rem;
   letter-spacing: 1px;
+}
+
+.slick-slider div {
+  transition: none;
 }
 
 .buttons {
