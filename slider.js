@@ -74,7 +74,7 @@ $(".slider1 .card").hover(function (index1, value1) {
   var current = this;
   $(".slider1 .card").each(function (index) {
     if (this !== current) {
-      $(this).css("opacity", "0.8");
+      $(this).css("opacity", "0.3");
       $(this).css("transform", "scale(1)");
     }
   });
@@ -85,7 +85,7 @@ $(".slider2 .card").hover(function (index1, value1) {
   var current = this;
   $(".slider2 .card").each(function (index) {
     if (this !== current) {
-      $(this).css("opacity", "0.7");
+      $(this).css("opacity", "0.5");
       $(this).css("transform", "scale(1)");
     }
   });
