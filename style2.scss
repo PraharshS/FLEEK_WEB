@@ -232,14 +232,15 @@ header {
   .slider1,
   .slider2 {
     .card {
+      box-sizing: border-box;
       transition: all 0.3s ease-in-out;
       border-radius: 0.5rem;
       width: 90%;
-      max-width: 350px;
+      max-width: 400px;
       margin: auto;
       margin: 1rem;
 
-      padding-bottom: 1rem;
+      padding-bottom: 2rem;
       background: linear-gradient(to right, #161414, #434343);
       img {
         width: 100%;
@@ -251,7 +252,6 @@ header {
         font-family: "BoldFont", sans-serif;
         color: white;
         font-size: 2rem;
-        padding: 0 1rem;
         margin-top: 0.5rem;
         margin-bottom: 1rem;
       }
@@ -259,7 +259,6 @@ header {
         font-family: "LightFont", sans-serif;
         font-size: 1rem;
         color: white;
-        padding: 0 1rem;
         text-align: center;
         margin-bottom: 0.2rem;
         letter-spacing: 1px;
