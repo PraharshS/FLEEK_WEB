@@ -72,7 +72,7 @@ $(".slider1 .card").hover(function (index1, value1) {
   $(this).css("opacity", "1");
   $(this).css("transform", "scale(1.05)");
   var current = this;
-  $(".card").each(function (index) {
+  $(".slider1 .card").each(function (index) {
     if (this !== current) {
       $(this).css("opacity", "0.5");
       $(this).css("transform", "scale(1)");
@@ -83,7 +83,7 @@ $(".slider2 .card").hover(function (index1, value1) {
   $(this).css("opacity", "1");
   $(this).css("transform", "scale(1.05)");
   var current = this;
-  $(".card").each(function (index) {
+  $(".slider2 .card").each(function (index) {
     if (this !== current) {
       $(this).css("opacity", "0.5");
       $(this).css("transform", "scale(1)");

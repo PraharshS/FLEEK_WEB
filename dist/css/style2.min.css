@@ -263,12 +263,11 @@ header {
   transition: all 0.3s ease-in-out;
   border-radius: 0.5rem;
   width: 90%;
-  max-width: 250px;
+  max-width: 280px;
   margin: auto;
   margin: 1rem;
   padding-bottom: 1rem;
   background-color: #3adfc4;
-  background: linear-gradient(180deg, #5fe8c7 0%, #3adfc4 100%);
 }
 
 .teamSection .slider1 .card img,
