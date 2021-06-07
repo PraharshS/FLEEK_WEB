@@ -232,7 +232,7 @@ header {
   .slider2 {
     .card {
       transition: all 0.3s ease-in-out;
-      border-radius: 2rem;
+      border-radius: 0.5rem;
       width: 90%;
       max-width: 280px;
       margin: auto;
@@ -244,8 +244,8 @@ header {
 
       img {
         width: 100%;
-        border-top-left-radius: 2rem;
-        border-top-right-radius: 2rem;
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
       }
       h2 {
         letter-spacing: 1px;
