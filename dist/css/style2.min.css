@@ -259,6 +259,7 @@ header {
 
 .teamSection .slider1 .card,
 .teamSection .slider2 .card {
+  transition: all 0.3s ease-in-out;
   border-radius: 3rem;
   width: 90%;
   max-width: 280px;
