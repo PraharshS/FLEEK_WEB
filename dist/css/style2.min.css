@@ -371,6 +371,14 @@ header {
   margin-right: 1rem;
 }
 
+.knock p {
+  margin-top: 0.5rem;
+  font-family: "LightFont", sans-serif;
+  font-size: 1rem;
+  color: white !important;
+  text-align: center !important;
+}
+
 .navbar-links {
   height: auto;
   list-style-type: none;

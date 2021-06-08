@@ -4,7 +4,6 @@ const navbarToggle = navbar.querySelector(".navbar-toggle");
 function openMobileNavbar() {
   navbar.classList.add("opened");
   navbarToggle.setAttribute("aria-label", "Close navigation menu.");
-  console.log(1);
   document.querySelector(".heroSection").style.visibility = "hidden";
 }
 
