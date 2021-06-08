@@ -210,6 +210,7 @@ button {
 }
 
 @media screen and (min-width: 700px) {
+
   .vector1,
   .vector2,
   .vector3,
@@ -258,6 +259,7 @@ button {
 }
 
 @media screen and (min-width: 700px) {
+
   .v1,
   .v2,
   .v3,
@@ -558,6 +560,7 @@ button {
   .home-link {
     margin-left: 2%;
   }
+
   .home-link img {
     width: 20%;
   }
@@ -643,7 +646,8 @@ button {
   width: 25px;
   height: 4px;
   margin: 2px;
-  transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out,
+    opacity 0.2s ease-in-out;
   background-color: var(--navbar-text-color);
 }
 
@@ -681,7 +685,8 @@ button {
   top: var(--navbar-height);
   height: 90vh;
   bottom: 0;
-  transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out, left 0.2s ease-in-out, right 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out,
+    left 0.2s ease-in-out, right 0.2s ease-in-out;
   opacity: 0;
   visibility: hidden;
 }
@@ -756,6 +761,7 @@ button {
   .heroText {
     margin-bottom: 1rem;
   }
+
   .heroText h2 {
     line-height: 1.2;
     font-size: 4rem;
@@ -763,10 +769,12 @@ button {
     margin-top: 5%;
     margin-bottom: 8%;
   }
+
   .heroText p {
     font-size: 1.4rem;
     padding: 0 6rem;
   }
+
   .heroText p span {
     margin-bottom: 0rem;
   }
@@ -802,6 +810,7 @@ button {
     padding: 2rem 1rem;
     margin-bottom: 0;
   }
+
   .joinBtn2 button {
     font-size: 2rem;
     border-radius: 1.8rem;
@@ -845,14 +854,17 @@ button {
     align-items: center;
     position: relative;
   }
+
   .secondPage img {
     display: inline-block !important;
     height: 80%;
     margin: 0 2rem;
   }
+
   .secondPage .phone1 {
     padding-top: 2rem;
   }
+
   .secondPage .phone3 {
     padding-top: 2rem;
   }
@@ -957,9 +969,11 @@ button {
     margin-left: 0;
     margin-right: 0;
   }
+
   .thirdPage .text .heading h2 {
     font-size: 2.7rem;
   }
+
   .thirdPage .text .para1,
   .thirdPage .text .para2 {
     font-size: 1.5rem;
@@ -970,34 +984,42 @@ button {
   .thirdPage {
     flex-direction: row;
   }
+
   .thirdPage .text {
     width: 55%;
   }
+
   .thirdPage .text .heading h2 {
     font-size: 2.7rem;
     font-weight: bold;
   }
+
   .thirdPage .image {
     width: 35%;
   }
+
   .thirdPage .para {
     font-size: 1.5rem;
   }
+
   .thirdPage .para div {
     align-items: center;
     justify-content: flex-start;
     margin-bottom: 4rem;
   }
+
   .thirdPage .para span img {
     display: block;
     width: 20px;
   }
+
   .thirdPage .para .para1,
   .thirdPage .para .para2 {
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 1.5rem;
   }
+
   .thirdPage .image img {
     width: 100%;
   }
@@ -1028,6 +1050,7 @@ button {
     padding-top: 0rem;
     height: auto;
   }
+
   #navbar .navbar-menu {
     visibility: visible;
     opacity: 1;
@@ -1035,6 +1058,7 @@ button {
     display: block;
     height: 100%;
   }
+
   #navbar .navbar-links {
     margin: 0;
     padding: 0;
@@ -1045,16 +1069,20 @@ button {
     max-height: max-content;
     width: 100%;
   }
+
   .navbar-toggle {
     display: none;
   }
+
   .navbar-item {
     margin-right: 4rem !important;
     margin-bottom: 0 !important;
   }
+
   .navbar-link {
     font-size: 1.5rem !important;
   }
+
   #navbar.opened .navbar-menu {
     visibility: visible;
     opacity: 1;
@@ -1062,6 +1090,7 @@ button {
     display: block;
     height: 100%;
   }
+
   #navbar.opened .navbar-links {
     margin: 0;
     padding: 0;
@@ -1111,10 +1140,12 @@ button {
   .footer .left .footer-icons {
     margin-top: 4rem;
   }
+
   .footer .left .footer-icons a {
     margin-right: 2rem;
     display: block;
   }
+
   .footer .left .footer-icons a i {
     font-size: 3rem;
     color: white;
@@ -1125,6 +1156,7 @@ button {
   .footer .left {
     width: 100%;
   }
+
   .footer .left .logo {
     display: none;
   }
@@ -1218,6 +1250,7 @@ button {
     justify-content: center;
     align-items: center;
   }
+
   .footer .terms-para p {
     margin-left: 2rem;
     font-size: 1rem;
@@ -1258,6 +1291,7 @@ button {
     margin-bottom: 70px !important;
     margin-left: 6%;
   }
+
   .tc h2 {
     margin-right: 1rem;
     font-weight: 100;

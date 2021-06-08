@@ -385,13 +385,17 @@ header {
 
 .navbar-links .joinBtn {
   background: linear-gradient(90deg, #0e0e0e 0%, #343434 100%);
+  z-index: 1;
   border-radius: 3rem;
   display: none;
   position: relative;
-  padding: 0.1rem 1rem;
+  padding: 0.2rem 0.1rem;
 }
 
 .navbar-links .joinBtn a {
+  padding: 0.8rem 2rem;
+  background: linear-gradient(90deg, #0e0e0e 0%, #343434 100%);
+  border-radius: 3rem;
   font-weight: bold;
   font-size: 1.2rem !important;
   color: white !important;

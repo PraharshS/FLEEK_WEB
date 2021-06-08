@@ -100,3 +100,62 @@ $(".slider2 .card").hover(function (index1, value1) {
     }
   });
 });
+var image_tracker = "1";
+
+function change() {
+  var image = document.getElementById("circle");
+  if (image_tracker == "1") {
+    image.src = "./assets/2.png";
+    image_tracker = "2";
+  } else if (image_tracker == "2") {
+    image.src = "./assets/3.png";
+    image_tracker = "3";
+  } else if (image_tracker == "3") {
+    image.src = "./assets/4.png";
+    image_tracker = "4";
+  } else if (image_tracker == "4") {
+    image.src = "./assets/5.png";
+    image_tracker = "5";
+  } else if (image_tracker == "5") {
+    image.src = "./assets/6.png";
+    image_tracker = "6";
+  } else if (image_tracker == "6") {
+    image.src = "./assets/7.png";
+    image_tracker = "7";
+  } else if (image_tracker == "7") {
+    image.src = "./assets/8.png";
+    image_tracker = "8";
+  } else if (image_tracker == "8") {
+    image.src = "./assets/9.png";
+    image_tracker = "9";
+  } else if (image_tracker == "9") {
+    image.src = "./assets/10.png";
+    image_tracker = "10";
+  } else if (image_tracker == "10") {
+    image.src = "./assets/11.png";
+    image_tracker = "11";
+  } else if (image_tracker == "11") {
+    image.src = "./assets/12.png";
+    image_tracker = "12";
+  } else if (image_tracker == "12") {
+    image.src = "./assets/13.png";
+    image_tracker = "13";
+  } else if (image_tracker == "13") {
+    image.src = "./assets/14.png";
+    image_tracker = "14";
+  } else if (image_tracker == "14") {
+    image.src = "./assets/15.png";
+    image_tracker = "15";
+  } else if (image_tracker == "15") {
+    image.src = "./assets/16.png";
+    image_tracker = "16";
+  } else if (image_tracker == "16") {
+    image.src = "./assets/17.png";
+    image_tracker = "17";
+  } else if (image_tracker == "17") {
+    image.src = "./assets/1.png";
+    image_tracker = "1";
+  }
+}
+
+var timer = setInterval("change();", 1000);
