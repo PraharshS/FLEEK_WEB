@@ -234,6 +234,7 @@ header {
     width: 80%;
     margin: auto;
     display: flex;
+    justify-content: center;
     .card {
       box-sizing: border-box;
       transition: all 0.3s ease-in-out;

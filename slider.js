@@ -30,6 +30,7 @@ $(document).ready(function () {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          centerMode: true,
         },
       },
       // You can unslick at a given breakpoint now by adding:
@@ -71,6 +72,7 @@ $(document).ready(function () {
           slidesToShow: 1,
           infinite: true,
           slidesToScroll: 1,
+          centerMode: true,
         },
       },
     ],
