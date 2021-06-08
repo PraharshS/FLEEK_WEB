@@ -379,6 +379,12 @@ header {
   text-align: center !important;
 }
 
+@media screen and (min-width: 900px) {
+  .knock {
+    display: none !important;
+  }
+}
+
 .navbar-links {
   height: auto;
   list-style-type: none;
