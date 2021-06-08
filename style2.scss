@@ -336,7 +336,7 @@ header {
       font-size: 1.2rem !important;
       color: white !important;
     }
-    &::after {
+    ::after {
       z-index: -2;
       content: "";
       position: absolute;

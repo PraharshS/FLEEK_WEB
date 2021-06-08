@@ -397,7 +397,7 @@ header {
   color: white !important;
 }
 
-.navbar-links .joinBtn::after {
+.navbar-links .joinBtn ::after {
   z-index: -2;
   content: "";
   position: absolute;
