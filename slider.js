@@ -1,6 +1,8 @@
 $(document).ready(function () {
   $(".slider1").slick({
     autoplay: true,
+    pauseOnHover: false,
+    pauseOnFocus: false,
     autoplaySpeed: 2000,
     dots: false,
     arrows: false,
@@ -39,6 +41,8 @@ $(document).ready(function () {
     ],
   });
   $(".slider2").slick({
+    pauseOnHover: false,
+    pauseOnFocus: false,
     autoplay: true,
     autoplaySpeed: 2000,
     dots: false,
