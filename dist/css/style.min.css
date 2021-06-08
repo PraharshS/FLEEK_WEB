@@ -1134,6 +1134,14 @@ button {
   width: 20%;
 }
 
+.footer .left p {
+  margin-top: auto !important;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-family: 'LightFont', sans-serif;
+  color: white;
+}
+
 .footer .left .footer-icons {
   display: flex;
 }
@@ -1149,8 +1157,15 @@ button {
 }
 
 @media screen and (max-width: 1200px) {
+  .footer .left p {
+    margin-top: 4rem !important;
+    font-size: 1rem;
+    font-family: 'LightFont', sans-serif;
+    color: white;
+  }
+
   .footer .left .footer-icons {
-    margin-top: 4rem;
+    margin-top: 0rem;
   }
 
   .footer .left .footer-icons a {
