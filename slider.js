@@ -1,41 +1,45 @@
-$(".slider1").slick({
-  dots: false,
-  arrows: false,
-  infinite: true,
-  speed: 300,
-  slidesToShow: 7,
-  adaptiveHeight: true,
-  variableWidth: true,
-  slidesToScroll: 1,
-  responsive: [
-    {
-      breakpoint: 1250,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-      },
-    },
-    {
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      },
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      },
-    },
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ],
-});
 $(document).ready(function () {
+  $(".slider1").slick({
+    autoplay: true,
+    autoplaySpeed: 2000,
+    dots: false,
+    arrows: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 5,
+    adaptiveHeight: true,
+    variableWidth: true,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1250,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ],
+  });
   $(".slider2").slick({
+    autoplay: true,
+    autoplaySpeed: 2000,
     dots: false,
     arrows: false,
     infinite: true,

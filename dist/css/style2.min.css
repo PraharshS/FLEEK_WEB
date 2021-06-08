@@ -260,8 +260,9 @@ header {
 
 .teamSection .slider1,
 .teamSection .slider2 {
+  width: 80%;
+  margin: auto;
   display: flex;
-  align-items: stretch;
 }
 
 .teamSection .slider1 .card,
@@ -269,12 +270,10 @@ header {
   box-sizing: border-box;
   transition: all 0.3s ease-in-out;
   border-radius: 0.5rem;
-  width: 90%;
   min-height: 100% !important;
   height: 100%;
-  max-width: 400px;
-  margin: auto;
-  margin: 1.5rem;
+  max-width: 280px;
+  margin: 2rem;
   padding-bottom: 1rem;
   background: linear-gradient(to right, #161414, #434343);
 }
@@ -291,15 +290,16 @@ header {
   letter-spacing: 1px;
   font-family: "BoldFont", sans-serif;
   color: white;
-  font-size: 2rem;
+  font-size: 1.7rem;
   margin-top: 0.5rem;
   margin-bottom: 1rem;
 }
 
 .teamSection .slider1 .card h4,
 .teamSection .slider2 .card h4 {
+  padding: 0 1rem;
   font-family: "LightFont", sans-serif;
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: white;
   text-align: center;
   margin-bottom: 0.2rem;
