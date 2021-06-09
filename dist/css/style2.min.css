@@ -51,7 +51,7 @@ button {
 }
 
 .wrapper {
-  background-color: #161414 !important;
+  background-color: white !important;
   position: relative;
   height: 100% !important;
   width: 100%;
@@ -159,10 +159,8 @@ header {
 .flexbox {
   display: flex;
   flex-direction: column;
-  padding: 3rem 2rem;
-  margin: auto;
+  margin: 6rem auto;
   max-width: 1024px;
-  padding: 4rem auto;
   min-height: 60vh;
   height: auto;
 }
@@ -337,7 +335,7 @@ header {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 190px) {
   .teamSection .slider1,
   .teamSection .slider2 {
     width: 65%;
@@ -775,6 +773,10 @@ header {
   font-size: 1.5rem;
   padding-right: 2%;
   padding-top: 2rem;
+}
+
+.footerWrapper {
+  background-color: #161414;
 }
 
 .tc {

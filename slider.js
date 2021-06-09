@@ -57,7 +57,7 @@ $(document).ready(function () {
     speed: 300,
     adaptiveHeight: true,
     variableWidth: true,
-    slidesToShow: 7,
+    slidesToShow: 5,
     slidesToScroll: 1,
     responsive: [
       {
