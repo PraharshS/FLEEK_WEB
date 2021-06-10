@@ -944,7 +944,7 @@ header {
     font-size: 1rem;
   }
   .tc {
-    margin-bottom: 70px !important;
+    padding-bottom: 50px !important;
     margin-left: 6%;
   }
   .tc h2 {
