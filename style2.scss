@@ -331,11 +331,11 @@ header {
 
 .slick-slide {
   height: inherit !important;
-  opacity: 0.8;
+  opacity: 1;
 }
 .slick-center {
   @media screen and (min-width: 576px) {
-    transform: scale(1.1);
+    transform: translateY(-5%);
   }
 
   opacity: 1;

@@ -397,7 +397,7 @@ header {
 
 .slick-slide {
   height: inherit !important;
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .slick-center {
@@ -406,7 +406,7 @@ header {
 
 @media screen and (min-width: 576px) {
   .slick-center {
-    transform: scale(1.1);
+    transform: translateY(-5%);
   }
 }
 
