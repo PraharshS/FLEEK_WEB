@@ -1131,6 +1131,7 @@ button {
 }
 
 .footer .left img {
+  margin-left: -4%;
   width: 200px;
   height: 100%;
 }
@@ -1207,10 +1208,6 @@ button {
   padding: 0;
 }
 
-.footer .footerNav .item {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
 
 .footer .footerNav .item a {
   color: var(--navbar-text-color);
@@ -1245,7 +1242,7 @@ button {
 
 .footer .terms {
   color: white;
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 .footer .terms h2 {
