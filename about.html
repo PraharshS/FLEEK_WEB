@@ -271,7 +271,9 @@
     <script src="./slider.js"></script>
     <script src="./script.js"></script>
     <script>
-        $(".footerNav").height(`${$(".footer .left img").height()}px`)
+        $(document).ready(function () {
+            $(".footerNav").height(`${$(".footer .left img").height()}px`)
+        })
     </script>
 </body>
 
