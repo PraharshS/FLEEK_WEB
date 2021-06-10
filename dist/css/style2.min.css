@@ -336,10 +336,10 @@ header {
   }
 }
 
-@media screen and (min-width: 190px) {
+@media screen and (min-width: 2560px) {
   .teamSection .slider1,
   .teamSection .slider2 {
-    width: 65%;
+    width: 80%;
   }
 }
 
@@ -390,10 +390,17 @@ header {
 
 .slick-track {
   display: flex !important;
+  margin: auto;
 }
 
 .slick-slide {
   height: inherit !important;
+  opacity: 0.8;
+}
+
+.slick-center {
+  transform: scale(1.1);
+  opacity: 1;
 }
 
 .buttons {

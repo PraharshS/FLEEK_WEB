@@ -12,13 +12,30 @@ $(document).ready(function () {
     adaptiveHeight: true,
     variableWidth: true,
     slidesToScroll: 1,
+    centerMode: true,
+    centerPadding: 0,
     responsive: [
+      {
+        breakpoint: 1400,
+        settings: {
+          centerMode: true,
+          centerPadding: 0,
+          pauseOnHover: false,
+          pauseOnFocus: false,
+          slidesToShow: 4,
+          infinite: true,
+          slidesToScroll: 1,
+        },
+      },
       {
         breakpoint: 1250,
         settings: {
+          centerMode: true,
+          centerPadding: 0,
           pauseOnHover: false,
           pauseOnFocus: false,
-          slidesToShow: 2,
+          slidesToShow: 3,
+          infinite: true,
           slidesToScroll: 1,
         },
       },
@@ -59,13 +76,29 @@ $(document).ready(function () {
     variableWidth: true,
     slidesToShow: 5,
     slidesToScroll: 1,
+    centerMode: true,
+    centerPadding: 0,
     responsive: [
+      {
+        breakpoint: 1400,
+        settings: {
+          centerMode: true,
+          centerPadding: 0,
+          pauseOnHover: false,
+          pauseOnFocus: false,
+          slidesToShow: 4,
+          infinite: true,
+          slidesToScroll: 1,
+        },
+      },
       {
         breakpoint: 1250,
         settings: {
+          centerMode: true,
+          centerPadding: 0,
           pauseOnHover: false,
           pauseOnFocus: false,
-          slidesToShow: 2,
+          slidesToShow: 3,
           infinite: true,
           slidesToScroll: 1,
         },
@@ -94,28 +127,28 @@ $(document).ready(function () {
     ],
   });
 });
-$(".slider1 .card").hover(function (index1, value1) {
-  $(this).css("opacity", "1");
-  $(this).css("transform", "scale(1.05)");
-  var current = this;
-  $(".slider1 .card").each(function (index) {
-    if (this !== current) {
-      $(this).css("opacity", "0.9");
-      $(this).css("transform", "scale(1)");
-    }
-  });
-});
-$(".slider2 .card").hover(function (index1, value1) {
-  $(this).css("opacity", "1");
-  $(this).css("transform", "scale(1.05)");
-  var current = this;
-  $(".slider2 .card").each(function (index) {
-    if (this !== current) {
-      $(this).css("opacity", "0.9");
-      $(this).css("transform", "scale(1)");
-    }
-  });
-});
+// $(".slider1 .card").hover(function (index1, value1) {
+//   $(this).css("opacity", "1");
+//   $(this).css("transform", "scale(1.05)");
+//   var current = this;
+//   $(".slider1 .card").each(function (index) {
+//     if (this !== current) {
+//       $(this).css("opacity", "0.9");
+//       $(this).css("transform", "scale(1)");
+//     }
+//   });
+// });
+// $(".slider2 .card").hover(function (index1, value1) {
+//   $(this).css("opacity", "1");
+//   $(this).css("transform", "scale(1.05)");
+//   var current = this;
+//   $(".slider2 .card").each(function (index) {
+//     if (this !== current) {
+//       $(this).css("opacity", "0.9");
+//       $(this).css("transform", "scale(1)");
+//     }
+//   });
+// });
 var image_tracker = "1";
 
 function change() {

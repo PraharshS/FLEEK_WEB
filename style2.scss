@@ -277,8 +277,8 @@ header {
     @media screen and (min-width: 1920px) {
       width: 88%;
     }
-    @media screen and (min-width: 190px) {
-      width: 65%;
+    @media screen and (min-width: 2560px) {
+      width: 80%;
     }
     margin: auto;
     display: flex;
@@ -324,10 +324,16 @@ header {
 }
 .slick-track {
   display: flex !important;
+  margin: auto;
 }
 
 .slick-slide {
   height: inherit !important;
+  opacity: 0.8;
+}
+.slick-center {
+  transform: scale(1.1);
+  opacity: 1;
 }
 .buttons {
   z-index: 500;
