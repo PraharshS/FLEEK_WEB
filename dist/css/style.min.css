@@ -555,7 +555,7 @@ button {
 }
 
 .home-link img {
-  width: 50%;
+  width: 150px;
 }
 
 .home-link:focus {
@@ -574,7 +574,7 @@ button {
   }
 
   .home-link img {
-    width: 20%;
+    width: 200px;
   }
 }
 
