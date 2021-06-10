@@ -399,8 +399,13 @@ header {
 }
 
 .slick-center {
-  transform: scale(1.1);
   opacity: 1;
+}
+
+@media screen and (min-width: 576px) {
+  .slick-center {
+    transform: scale(1.1);
+  }
 }
 
 .buttons {
@@ -690,7 +695,7 @@ header {
   background-color: #161414;
   min-height: 50vh;
   display: flex;
-  padding: 4rem 6%;
+  padding: 2rem 6%;
   margin-bottom: 2% !important;
 }
 
@@ -702,7 +707,9 @@ header {
 }
 
 .footer .left img {
-  width: 20%;
+  margin-left: -4%;
+  width: 200px;
+  height: 100%;
 }
 
 .footer .left p {
@@ -718,12 +725,12 @@ header {
 }
 
 .footer .left .footer-icons a {
-  margin-right: 3rem;
+  margin-right: 2rem;
   display: block;
 }
 
 .footer .left .footer-icons a i {
-  font-size: 4rem;
+  font-size: 3rem;
   color: white;
 }
 
@@ -736,11 +743,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0;
-}
-
-.footer .footerNav .item {
-  margin-top: 2rem;
-  margin-bottom: 6rem;
 }
 
 .footer .footerNav .item a {
@@ -770,6 +772,7 @@ header {
 
 .footer .terms {
   color: white;
+  margin-top: 4rem;
 }
 
 .footer .terms h2 {
@@ -905,11 +908,11 @@ header {
     margin-top: 0rem;
   }
   .footer .left .footer-icons a {
-    margin-right: 2rem;
+    margin-right: 1rem;
     display: block;
   }
   .footer .left .footer-icons a i {
-    font-size: 3rem;
+    font-size: 2rem;
     color: white;
   }
   .footer .left p {

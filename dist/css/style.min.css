@@ -1131,7 +1131,8 @@ button {
 }
 
 .footer .left img {
-  width: 20%;
+  width: 200px;
+  height: 100%;
 }
 
 .footer .left p {
@@ -1147,12 +1148,12 @@ button {
 }
 
 .footer .left .footer-icons a {
-  margin-right: 3rem;
+  margin-right: 2rem;
   display: block;
 }
 
 .footer .left .footer-icons a i {
-  font-size: 4rem;
+  font-size: 3rem;
   color: white;
 }
 
@@ -1169,12 +1170,12 @@ button {
   }
 
   .footer .left .footer-icons a {
-    margin-right: 2rem;
+    margin-right: 1rem;
     display: block;
   }
 
   .footer .left .footer-icons a i {
-    font-size: 3rem;
+    font-size: 2rem;
     color: white;
   }
 }
@@ -1207,8 +1208,8 @@ button {
 }
 
 .footer .footerNav .item {
-  margin-top: 2rem;
-  margin-bottom: 6rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .footer .footerNav .item a {
@@ -1244,6 +1245,7 @@ button {
 
 .footer .terms {
   color: white;
+  margin-top: 2rem;
 }
 
 .footer .terms h2 {

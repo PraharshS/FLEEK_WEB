@@ -332,7 +332,10 @@ header {
   opacity: 0.8;
 }
 .slick-center {
-  transform: scale(1.1);
+  @media screen and (min-width: 576px) {
+    transform: scale(1.1);
+  }
+
   opacity: 1;
 }
 .buttons {
@@ -602,7 +605,7 @@ header {
   background-color: #161414;
   min-height: 50vh;
   display: flex;
-  padding: 4rem 6%;
+  padding: 2rem 6%;
   margin-bottom: 2% !important;
   .left {
     width: 50%;
@@ -610,7 +613,9 @@ header {
     flex-direction: column;
     justify-content: space-around;
     img {
-      width: 20%;
+      margin-left: -4%;
+      width: 200px;
+      height: 100%;
     }
     p {
       margin-top: auto !important;
@@ -623,10 +628,10 @@ header {
     .footer-icons {
       display: flex;
       a {
-        margin-right: 3rem;
+        margin-right: 2rem;
         display: block;
         i {
-          font-size: 4rem;
+          font-size: 3rem;
           color: white;
         }
       }
@@ -641,8 +646,6 @@ header {
     align-items: center;
     padding: 0;
     .item {
-      margin-top: 2rem;
-      margin-bottom: 6rem;
       a {
         color: var(--navbar-text-color);
         font-size: 1.5rem;
@@ -669,6 +672,7 @@ header {
   }
   .terms {
     color: white;
+    margin-top: 4rem;
     h2 {
       font-size: 2.5rem;
       font-weight: bold;
@@ -793,10 +797,10 @@ header {
       .footer-icons {
         margin-top: 0rem;
         a {
-          margin-right: 2rem;
+          margin-right: 1rem;
           display: block;
           i {
-            font-size: 3rem;
+            font-size: 2rem;
             color: white;
           }
         }
