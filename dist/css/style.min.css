@@ -555,7 +555,7 @@ button {
 }
 
 .home-link img {
-  width: 150px;
+  width: 100px;
 }
 
 .home-link:focus {
@@ -574,7 +574,7 @@ button {
   }
 
   .home-link img {
-    width: 200px;
+    width: 100px;
   }
 }
 
@@ -836,8 +836,8 @@ button {
   outline: none;
   border: none;
   display: none;
-  margin-top: auto;
-  margin-bottom: 1rem;
+  margin-bottom: auto;
+  margin-top: 1rem;
 }
 
 .downBtn .fa-chevron-down {
