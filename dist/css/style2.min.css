@@ -222,7 +222,7 @@ header {
 
 @media screen and (min-width: 1024px) {
   .flexbox {
-    height: 60vh;
+    min-height: 60vh;
   }
   .flexbox .text {
     width: 45%;
