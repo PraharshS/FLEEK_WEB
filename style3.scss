@@ -266,7 +266,7 @@ header {
     margin: auto;
     grid-template-columns: repeat(1, 1fr);
     max-width: 260px;
-    grid-gap: 3rem;
+    grid-gap: 5rem;
 
     .card {
       margin: auto;
@@ -275,21 +275,22 @@ header {
       border-radius: 0.5rem;
       width: auto;
       height: 100%;
-      padding-bottom: 2rem;
+      padding-bottom: 1.5rem;
       background-color: #f5f5f5;
 
       // background: linear-gradient(to right, #161414, #434343);
       img {
         object-fit: cover;
-        max-height: 300px;
+        max-height: 280px;
         height: auto;
         width: 100%;
         border-top-left-radius: 0.5rem;
         border-top-right-radius: 0.5rem;
       }
       h2 {
+        font-family: "LightFont", sans-serif;
         letter-spacing: 1px;
-        font-family: "BoldFont", sans-serif;
+        font-weight: 800;
         color: black;
         font-size: 1.5rem;
         text-align: center;
@@ -298,60 +299,29 @@ header {
       }
       h4 {
         font-family: "LightFont", sans-serif;
-        font-size: 0.8rem;
-        color: grey;
+        font-weight: 800;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        color: #8d8d8d;
         text-align: center;
         margin-bottom: 0.5rem;
-        letter-spacing: 1px;
+        padding: 0 0.3rem;
       }
     }
     @media screen and (min-width: 768px) {
       grid-template-columns: repeat(2, 1fr);
       max-width: 700px;
-
-      .card {
-        h2 {
-          font-size: 2rem;
-        }
-        h4 {
-          font-size: 1rem;
-        }
-      }
     }
     @media screen and (min-width: 900px) {
       grid-template-columns: repeat(3, 1fr);
       grid-gap: 2rem;
       max-width: 800px;
-
-      .card {
-        padding-bottom: 1rem;
-        h2 {
-          font-size: 1.5rem;
-        }
-        h4 {
-          font-size: 0.8rem;
-        }
-      }
     }
     @media screen and (min-width: 1024px) {
       max-width: 950px;
-
-      .card {
-        padding-bottom: 1.5rem;
-      }
     }
     @media screen and (min-width: 1250px) {
       max-width: 1000px;
-
-      .card {
-        padding-bottom: 1.5rem;
-        h2 {
-          font-size: 2rem;
-        }
-        h4 {
-          font-size: 1rem;
-        }
-      }
     }
     @media screen and (min-width: 1440px) {
       max-width: 1250px;
