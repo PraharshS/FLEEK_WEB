@@ -159,10 +159,7 @@ header {
 .flexbox {
   display: flex;
   flex-direction: column;
-  margin: 2rem auto;
-  padding: 2rem 2rem;
-  max-width: 1024px;
-  min-height: 60vh;
+  margin: 5rem 2rem;
   height: auto;
 }
 
@@ -175,12 +172,12 @@ header {
   font-family: "MediumFont", sans-serif;
   text-align: left;
   color: #009b84;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .flexbox .text p {
   margin-bottom: 3rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: left;
   color: #57616b;
   font-family: "BoldFont", sans-serif;
@@ -188,15 +185,13 @@ header {
 
 .flexbox .image img {
   width: 100%;
-  max-width: 400px;
+  max-width: 380px;
   display: block;
   margin-right: auto;
 }
 
 @media screen and (min-width: 768px) {
   .flexbox {
-    margin: 4rem auto;
-    padding: 4rem 2rem;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -205,16 +200,16 @@ header {
     flex-direction: row-reverse !important;
   }
   .flexbox .text {
-    width: 40%;
+    width: 50%;
   }
   .flexbox .text h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .flexbox .text p {
     font-size: 1rem;
   }
   .flexbox .image {
-    width: 50%;
+    width: 40%;
   }
   .flexbox .image img {
     width: 100%;
@@ -224,7 +219,36 @@ header {
 
 @media screen and (min-width: 1024px) {
   .flexbox {
-    min-height: 60vh;
+    max-width: 900px;
+    margin: 8rem auto;
+  }
+  .flexbox .text {
+    width: 45%;
+    max-width: unset;
+  }
+  .flexbox .text h2 {
+    font-size: 3.5rem;
+  }
+  .flexbox .text p {
+    font-size: 1.2rem;
+  }
+  .flexbox .image {
+    height: 100%;
+    width: 50%;
+    max-width: unset;
+    display: flex;
+    justify-content: center;
+  }
+  .flexbox .image img {
+    width: 100%;
+    max-width: unset;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .flexbox {
+    max-width: 1200px;
+    margin: 9rem auto;
   }
   .flexbox .text {
     width: 45%;
@@ -238,6 +262,7 @@ header {
   }
   .flexbox .image {
     height: 100%;
+    width: 50%;
     max-width: unset;
     display: flex;
     justify-content: center;
@@ -245,31 +270,6 @@ header {
   .flexbox .image img {
     width: 100%;
     max-width: unset;
-  }
-}
-
-@media screen and (min-width: 1250px) {
-  .flexbox {
-    max-width: 1250px;
-  }
-  .flexbox .text h2 {
-    font-size: 5rem;
-  }
-  .flexbox .text p {
-    font-size: 1.7rem;
-  }
-  .flexbox .image {
-    height: 100%;
-  }
-  .flexbox .image img {
-    width: 100%;
-    max-width: auto;
-  }
-}
-
-@media screen and (min-width: 1400px) {
-  .flexbox {
-    max-width: 1400px;
   }
 }
 
