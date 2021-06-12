@@ -172,7 +172,7 @@ function change() {
     image.src = "./assets/7.png";
     image_tracker = "7";
   } else if (image_tracker == "7") {
-    image.src = "./assets/8.png";
+    image.src = "./assets/people8.png";
     image_tracker = "8";
   } else if (image_tracker == "8") {
     image.src = "./assets/9.png";

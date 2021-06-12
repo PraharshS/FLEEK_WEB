@@ -161,7 +161,7 @@ header {
   flex-direction: column;
   margin: 2rem auto;
   padding: 2rem 2rem;
-  max-width: 1024px;
+  max-width: 1200px;
   min-height: 60vh;
   height: auto;
 }
@@ -195,8 +195,9 @@ header {
 
 @media screen and (min-width: 768px) {
   .flexbox {
-    margin: 4rem auto;
-    padding: 4rem 2rem;
+    margin: 10rem auto;
+    min-height: unset;
+    padding: 0 2rem;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -205,7 +206,7 @@ header {
     flex-direction: row-reverse !important;
   }
   .flexbox .text {
-    width: 40%;
+    width: 45%;
   }
   .flexbox .text h2 {
     font-size: 3rem;
@@ -219,6 +220,32 @@ header {
   .flexbox .image img {
     width: 100%;
     margin: auto;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .flexbox {
+    min-height: 60vh;
+  }
+  .flexbox .text {
+    width: 45%;
+    max-width: unset;
+  }
+  .flexbox .text h2 {
+    font-size: 3.5rem;
+  }
+  .flexbox .text p {
+    font-size: 1.5rem;
+  }
+  .flexbox .image {
+    height: 100%;
+    max-width: unset;
+    display: flex;
+    justify-content: center;
+  }
+  .flexbox .image img {
+    width: 100%;
+    max-width: unset;
   }
 }
 
@@ -250,7 +277,7 @@ header {
 
 @media screen and (min-width: 1250px) {
   .flexbox {
-    max-width: 1250px;
+    max-width: 80%;
   }
   .flexbox .text h2 {
     font-size: 5rem;
@@ -264,12 +291,6 @@ header {
   .flexbox .image img {
     width: 100%;
     max-width: auto;
-  }
-}
-
-@media screen and (min-width: 1400px) {
-  .flexbox {
-    max-width: 1400px;
   }
 }
 
