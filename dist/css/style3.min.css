@@ -348,7 +348,7 @@ header {
   font-family: "MediumFont", sans-serif;
   font-weight: bold;
   letter-spacing: 1px;
-  color: black;
+  color: #333333;
   font-size: 1.5rem;
   text-align: center;
   padding-top: 0.5rem;
@@ -363,7 +363,7 @@ header {
   color: #57616b;
   text-align: center;
   margin-bottom: 0.5rem;
-  padding: 0 0.3rem;
+  padding: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -397,7 +397,7 @@ header {
 
 @media screen and (min-width: 1440px) {
   .teamSection .grid1 {
-    max-width: 1250px;
+    max-width: 1150px;
     grid-gap: 5rem;
   }
   .teamSection .grid1 .card {

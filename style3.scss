@@ -312,7 +312,7 @@ header {
         font-family: "MediumFont", sans-serif;
         font-weight: bold;
         letter-spacing: 1px;
-        color: rgb(51, 51, 51, 1);
+        color: rgb(51, 51, 51);
         font-size: 1.5rem;
         text-align: center;
         padding-top: 0.5rem;
@@ -326,7 +326,7 @@ header {
         color: #57616b;
         text-align: center;
         margin-bottom: 0.5rem;
-        padding: 0 0.3rem;
+        padding: 0;
       }
     }
     @media screen and (min-width: 768px) {
