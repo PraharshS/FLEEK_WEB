@@ -337,7 +337,7 @@ header {
 
 .teamSection .grid1 .card img {
   object-fit: cover;
-  max-height: 280px;
+  max-height: 250px;
   height: auto;
   width: 100%;
   border-top-left-radius: 0.5rem;
@@ -369,38 +369,43 @@ header {
 @media screen and (min-width: 768px) {
   .teamSection .grid1 {
     grid-template-columns: repeat(2, 1fr);
-    max-width: 700px;
+    max-width: 600px;
   }
 }
 
 @media screen and (min-width: 900px) {
   .teamSection .grid1 {
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2rem;
-    max-width: 800px;
+    grid-gap: 3rem;
+    max-width: 820px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .teamSection .grid1 {
-    max-width: 950px;
+    grid-gap: 4rem;
+    max-width: 930px;
   }
 }
 
 @media screen and (min-width: 1250px) {
   .teamSection .grid1 {
-    max-width: 1000px;
+    grid-gap: 5rem;
+    max-width: 1100px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .teamSection .grid1 {
     max-width: 1250px;
-    grid-gap: 4rem;
+    grid-gap: 5rem;
   }
   .teamSection .grid1 .card {
     padding-bottom: 1.5rem;
     max-width: 350px;
+  }
+  .teamSection .grid1 .card img {
+    max-height: 350px;
   }
 }
 
