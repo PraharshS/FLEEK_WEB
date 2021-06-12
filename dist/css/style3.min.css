@@ -183,7 +183,7 @@ header {
   font-size: 1.2rem;
   text-align: left;
   color: #57616b;
-  font-family: "BoldFont", sans-serif;
+  font-family: "LightFont", sans-serif;
 }
 
 .flexbox .image img {
@@ -209,7 +209,7 @@ header {
     width: 45%;
   }
   .flexbox .text h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .flexbox .text p {
     font-size: 1rem;
@@ -232,7 +232,7 @@ header {
     max-width: unset;
   }
   .flexbox .text h2 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   .flexbox .text p {
     font-size: 1.5rem;
@@ -254,11 +254,11 @@ header {
     min-height: 60vh;
   }
   .flexbox .text {
-    width: 45%;
+    width: 43%;
     max-width: unset;
   }
   .flexbox .text h2 {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   .flexbox .text p {
     font-size: 1.5rem;
@@ -277,10 +277,10 @@ header {
 
 @media screen and (min-width: 1250px) {
   .flexbox {
-    max-width: 80%;
+    max-width: 85%;
   }
   .flexbox .text h2 {
-    font-size: 5rem;
+    font-size: 3.7rem;
   }
   .flexbox .text p {
     font-size: 1.7rem;
@@ -360,7 +360,7 @@ header {
   font-size: 1rem;
   font-weight: 300;
   letter-spacing: 1px;
-  color: #8d8d8d;
+  color: #57616b;
   text-align: center;
   margin-bottom: 0.5rem;
   padding: 0 0.3rem;
