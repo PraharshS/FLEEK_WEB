@@ -345,9 +345,9 @@ header {
 }
 
 .teamSection .grid1 .card h2 {
-  font-family: "LightFont", sans-serif;
+  font-family: "MediumFont", sans-serif;
+  font-weight: bold;
   letter-spacing: 1px;
-  font-weight: 800;
   color: black;
   font-size: 1.5rem;
   text-align: center;
@@ -357,8 +357,8 @@ header {
 
 .teamSection .grid1 .card h4 {
   font-family: "LightFont", sans-serif;
-  font-weight: 800;
   font-size: 1rem;
+  font-weight: 300;
   letter-spacing: 1px;
   color: #8d8d8d;
   text-align: center;
