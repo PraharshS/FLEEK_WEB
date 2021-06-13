@@ -361,10 +361,10 @@
             var st = $(this).scrollTop();
             if (st > lastScrollTop) {
                 // down 
-                $('#navbar-fixed').show(300)
+                $('#navbar-fixed').hide(300)
             } else {
                 // up
-                $('#navbar-fixed').hide(300)
+                $('#navbar-fixed').show(300)
             }
 
             lastScrollTop = st;
