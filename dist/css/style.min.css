@@ -555,7 +555,7 @@ button {
 }
 
 .home-link img {
-  width: 190px;
+  width: 150px;
 }
 
 .home-link:focus {
@@ -574,7 +574,7 @@ button {
   }
 
   .home-link img {
-    width: 190px;
+    width: 150px;
   }
 }
 
@@ -1132,7 +1132,7 @@ button {
 
 .footer .left img {
   margin-left: -4%;
-  width: 190px;
+  width: 150px;
   height: 100%;
 }
 

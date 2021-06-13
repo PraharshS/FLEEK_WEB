@@ -123,9 +123,6 @@ header {
   justify-content: space-evenly;
   align-items: center;
 }
-* {
-  // outline: 1px solid red;
-}
 #navbar-fixed {
   background: #161414;
   // outline: 1px solid red;
@@ -515,7 +512,7 @@ header {
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   margin-left: 0%;
   img {
-    width: 190px;
+    width: 150px;
   }
   &:focus {
     color: var(--navbar-text-color-focus);
@@ -665,7 +662,7 @@ header {
     justify-content: space-around;
     img {
       margin-left: -4%;
-      width: 190px;
+      width: 150px;
       height: 100%;
     }
     p {
@@ -797,7 +794,7 @@ header {
   .home-link {
     margin-left: 2%;
     img {
-      width: 190px;
+      width: 150px;
     }
   }
   .navbar-link {
