@@ -14,7 +14,38 @@
 <body>
     <div class="wrapper">
         <header id="navbar">
-
+            <nav class="navbar-container container" id="navbar-fixed">
+                <a href="/" class="home-link">
+                    <img src="./assets/Logo2.png" alt="">
+                </a>
+                <button type="button" class="navbar-toggle" aria-label="Open navigation menu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-menu detached">
+                    <ul class="navbar-links">
+                        <li class="navbar-item"><a class="navbar-link" href="/index.html">Home</a></li>
+                        <li class="navbar-item"><a class="navbar-link" href="#team">Our Team</a></li>
+                        <li class="navbar-item"><a class="navbar-link" href="#footer">Contact</a></li>
+                        <!-- <li class="navbar-item"><a class="navbar-link" href="#">FAQ</a></li> -->
+                        <li class="navbar-item joinBtn"><a target="_blank" class="navbar-link"
+                                href="https://mkf98e8aosb.typeform.com/to/usRA566p">join the
+                                waitlist</a></li>
+                        <li class="nav-icons">
+                            <a class="social-link" target="_blank"
+                                href="https://www.linkedin.com/company/getfleekapp"><img src="./assets/linkedIn.png"
+                                    alt=""></a>
+                            <a class="social-link" target="_blank"
+                                href="https://instagram.com/getfleekapp?utm_medium=copy_link"><img
+                                    src="./assets/insta.png" alt=""></a>
+                        </li>
+                        <li class="navbar-item knock">
+                            <p>Reach out to us at : knock.knock@getfleek.app</p>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
             <nav class="navbar-container container">
                 <a href="/" class="home-link">
                     <img src="./assets/Logo2.png" alt="">
@@ -321,6 +352,23 @@
         $(document).ready(function () {
             $(".footerNav").height(`${$(".footer .left img").height()}px`)
         })
+        $('#navbar-fixed').hide()
+        $(document).ready(function () {
+            $(".footerNav").height(`${$(".footer .left img").height()}px`)
+        })
+        var lastScrollTop = 0;
+        $(window).scroll(function (event) {
+            var st = $(this).scrollTop();
+            if (st > lastScrollTop) {
+                // down 
+                $('#navbar-fixed').show(300)
+            } else {
+                // up
+                $('#navbar-fixed').hide(300)
+            }
+
+            lastScrollTop = st;
+        });
     </script>
 </body>
 
