@@ -359,6 +359,7 @@
         var lastScrollTop = 0;
         $(window).scroll(function (event) {
             var st = $(this).scrollTop();
+            console.log(st);
             if (st > lastScrollTop) {
                 // down 
                 $('#navbar-fixed').hide(300)
@@ -366,7 +367,9 @@
                 // up
                 $('#navbar-fixed').show(300)
             }
-
+            if (st === 0) {
+                $('#navbar-fixed').hide('fast')
+            }
             lastScrollTop = st;
         });
     </script>
