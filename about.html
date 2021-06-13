@@ -322,7 +322,7 @@
                 if (st >= 1000)
                     $('#navbar-fixed').show(300)
             }
-            if (st === 0) {
+            if (st < 1000) {
                 $('#navbar-fixed').hide('fast')
             }
             lastScrollTop = st;
