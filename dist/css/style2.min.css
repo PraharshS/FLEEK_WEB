@@ -159,7 +159,10 @@ header {
 .flexbox {
   display: flex;
   flex-direction: column;
-  margin: 5rem 2rem;
+  margin: 2rem auto;
+  padding: 2rem 2rem;
+  max-width: 1200px;
+  min-height: 60vh;
   height: auto;
 }
 
@@ -172,26 +175,29 @@ header {
   font-family: "MediumFont", sans-serif;
   text-align: left;
   color: #009b84;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .flexbox .text p {
   margin-bottom: 3rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: left;
   color: #57616b;
-  font-family: "BoldFont", sans-serif;
+  font-family: "LightFont", sans-serif;
 }
 
 .flexbox .image img {
   width: 100%;
-  max-width: 380px;
+  max-width: 400px;
   display: block;
   margin-right: auto;
 }
 
 @media screen and (min-width: 768px) {
   .flexbox {
+    margin: 10rem auto;
+    min-height: unset;
+    padding: 0 2rem;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -200,7 +206,7 @@ header {
     flex-direction: row-reverse !important;
   }
   .flexbox .text {
-    width: 50%;
+    width: 45%;
   }
   .flexbox .text h2 {
     font-size: 2.5rem;
@@ -209,7 +215,7 @@ header {
     font-size: 1rem;
   }
   .flexbox .image {
-    width: 40%;
+    width: 50%;
   }
   .flexbox .image img {
     width: 100%;
@@ -217,24 +223,22 @@ header {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 900px) {
   .flexbox {
-    max-width: 900px;
-    margin: 8rem auto;
+    min-height: 60vh;
   }
   .flexbox .text {
     width: 45%;
     max-width: unset;
   }
   .flexbox .text h2 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   .flexbox .text p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   .flexbox .image {
     height: 100%;
-    width: 50%;
     max-width: unset;
     display: flex;
     justify-content: center;
@@ -245,24 +249,22 @@ header {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
   .flexbox {
-    max-width: 1200px;
-    margin: 9rem auto;
+    min-height: 60vh;
   }
   .flexbox .text {
-    width: 45%;
+    width: 43%;
     max-width: unset;
   }
   .flexbox .text h2 {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   .flexbox .text p {
     font-size: 1.5rem;
   }
   .flexbox .image {
     height: 100%;
-    width: 50%;
     max-width: unset;
     display: flex;
     justify-content: center;
@@ -270,6 +272,25 @@ header {
   .flexbox .image img {
     width: 100%;
     max-width: unset;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .flexbox {
+    max-width: 85%;
+  }
+  .flexbox .text h2 {
+    font-size: 3.7rem;
+  }
+  .flexbox .text p {
+    font-size: 1.7rem;
+  }
+  .flexbox .image {
+    height: 100%;
+  }
+  .flexbox .image img {
+    width: 100%;
+    max-width: auto;
   }
 }
 
@@ -295,95 +316,97 @@ header {
   }
 }
 
-.teamSection .slider1,
-.teamSection .slider2 {
-  width: 80%;
+.teamSection .grid1 {
+  display: grid;
   margin: auto;
-  display: flex;
-  justify-content: center;
+  grid-template-columns: repeat(1, 1fr);
+  max-width: 260px;
+  grid-gap: 5rem;
 }
 
-@media screen and (min-width: 1024px) {
-  .teamSection .slider1,
-  .teamSection .slider2 {
-    width: 65%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .teamSection .slider1,
-  .teamSection .slider2 {
-    width: 85%;
-  }
-}
-
-@media screen and (min-width: 1250px) {
-  .teamSection .slider1,
-  .teamSection .slider2 {
-    width: 80%;
-  }
-}
-
-@media screen and (min-width: 1400px) {
-  .teamSection .slider1,
-  .teamSection .slider2 {
-    width: 95%;
-  }
-}
-
-@media screen and (min-width: 1920px) {
-  .teamSection .slider1,
-  .teamSection .slider2 {
-    width: 88%;
-  }
-}
-
-@media screen and (min-width: 2560px) {
-  .teamSection .slider1,
-  .teamSection .slider2 {
-    width: 80%;
-  }
-}
-
-.teamSection .slider1 .card,
-.teamSection .slider2 .card {
+.teamSection .grid1 .card {
+  margin: auto;
   box-sizing: border-box;
   transition: all 0.3s ease-in-out;
   border-radius: 0.5rem;
-  min-height: 100% !important;
+  width: auto;
   height: 100%;
-  max-width: 280px;
-  margin: 2rem;
-  padding-bottom: 1rem;
-  background: linear-gradient(to right, #161414, #434343);
+  padding-bottom: 1.5rem;
+  background-color: #f5f5f5;
 }
 
-.teamSection .slider1 .card img,
-.teamSection .slider2 .card img {
+.teamSection .grid1 .card img {
+  object-fit: cover;
+  max-height: 250px;
+  height: auto;
   width: 100%;
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
 }
 
-.teamSection .slider1 .card h2,
-.teamSection .slider2 .card h2 {
+.teamSection .grid1 .card h2 {
+  font-family: "MediumFont", sans-serif;
+  font-weight: bold;
   letter-spacing: 1px;
-  font-family: "BoldFont", sans-serif;
-  color: white;
-  font-size: 1.7rem;
-  margin-top: 0.5rem;
+  color: #333333;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 0.5rem;
   margin-bottom: 1rem;
 }
 
-.teamSection .slider1 .card h4,
-.teamSection .slider2 .card h4 {
-  padding: 0 1rem;
+.teamSection .grid1 .card h4 {
   font-family: "LightFont", sans-serif;
-  font-size: 0.8rem;
-  color: white;
-  text-align: center;
-  margin-bottom: 0.2rem;
+  font-size: 1rem;
+  font-weight: 300;
   letter-spacing: 1px;
+  color: #57616b;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .teamSection .grid1 {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 600px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .teamSection .grid1 {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+    max-width: 820px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .teamSection .grid1 {
+    grid-gap: 4rem;
+    max-width: 930px;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .teamSection .grid1 {
+    grid-gap: 5rem;
+    max-width: 1000px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .teamSection .grid1 {
+    max-width: 1150px;
+    grid-gap: 5rem;
+  }
+  .teamSection .grid1 .card {
+    padding-bottom: 1.5rem;
+    max-width: 350px;
+  }
+  .teamSection .grid1 .card img {
+    max-height: 350px;
+  }
 }
 
 .slick-slider div {
