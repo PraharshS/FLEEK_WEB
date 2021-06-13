@@ -319,7 +319,8 @@
                 $('#navbar-fixed').hide(300)
             } else {
                 // up
-                $('#navbar-fixed').show(300)
+                if (st >= 1000)
+                    $('#navbar-fixed').show(300)
             }
             if (st === 0) {
                 $('#navbar-fixed').hide('fast')
