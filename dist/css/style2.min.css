@@ -574,8 +574,7 @@ header {
 }
 
 .home-link img {
-  max-width: 400px;
-  width: 50%;
+  width: 190px;
 }
 
 .home-link:focus {
@@ -878,7 +877,7 @@ header {
     margin-left: 2%;
   }
   .home-link img {
-    width: 40%;
+    width: 190px;
   }
   .navbar-link {
     font-size: 2rem !important;

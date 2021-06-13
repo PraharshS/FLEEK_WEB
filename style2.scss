@@ -503,8 +503,7 @@ header {
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   margin-left: 0%;
   img {
-    max-width: 400px;
-    width: 50%;
+    width: 190px;
   }
   &:focus {
     color: var(--navbar-text-color-focus);
@@ -786,7 +785,7 @@ header {
   .home-link {
     margin-left: 2%;
     img {
-      width: 40%;
+      width: 190px;
     }
   }
   .navbar-link {
