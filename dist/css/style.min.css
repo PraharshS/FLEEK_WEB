@@ -58,7 +58,6 @@ button {
 
 #navbar-fixed {
   background: #161414;
-  // outline: 1px solid red;
   position: fixed !important;
   width: 100% !important;
   height: 90px;
@@ -715,6 +714,7 @@ button {
 }
 
 .navbar-menu.detached {
+  background: #161414;
   left: 0;
   right: 0;
 }

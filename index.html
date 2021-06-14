@@ -313,6 +313,7 @@
         <img class="e11" src="./assets/e11.svg">
     </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./script.js"></script>
     <script>
         ! function (a, b, c, d, t) {
             var e, f = a.getElementsByTagName("head")[0];
@@ -346,7 +347,7 @@
             }
         }(document, "script", "vrlps-js", "CcLULW845lXfGuC0icaFnPmpTnY", "waitlist");
     </script>
-    <script src="./script.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -360,6 +361,7 @@
         })
         var lastScrollTop = 0;
         $(window).scroll(function (event) {
+            closeMobileNavbar()
             var st = $(this).scrollTop();
             if (st > lastScrollTop) {
                 // down 

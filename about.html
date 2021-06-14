@@ -314,6 +314,7 @@
         var lastScrollTop = 0;
         $(window).scroll(function (event) {
             var st = $(this).scrollTop();
+            closeMobileNavbar()
             if (st > lastScrollTop) {
                 // down 
                 $('#navbar-fixed').hide(300)
