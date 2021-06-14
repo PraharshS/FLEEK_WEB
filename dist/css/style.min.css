@@ -716,6 +716,7 @@ button {
 .navbar-menu.detached {
   background: #161414;
   left: 0;
+  top: 70px;
   right: 0;
 }
 
