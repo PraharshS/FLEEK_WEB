@@ -55,7 +55,7 @@ navbarLinksContainer1.addEventListener("click", (clickEvent) => {
 
 navbarMenu[0].addEventListener("click", closeMobileNavbar);
 
-const navbarLinksContainer2 = navbar[1].querySelector(".navbar-links");
+const navbarLinksContainer2 = navbar.querySelector(".navbar-links");
 
 navbarLinksContainer2.addEventListener("click", (clickEvent) => {
   clickEvent.stopPropagation();
