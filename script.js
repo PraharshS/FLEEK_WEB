@@ -47,7 +47,7 @@ navbarToggle[1].addEventListener("click", () => {
 });
 
 const navbarMenu = navbar.querySelectorAll(".navbar-menu");
-const navbarLinksContainer1 = navbar[0].querySelector(".navbar-links");
+const navbarLinksContainer1 = navbar.querySelector(".navbar-links");
 
 navbarLinksContainer1.addEventListener("click", (clickEvent) => {
   clickEvent.stopPropagation();
