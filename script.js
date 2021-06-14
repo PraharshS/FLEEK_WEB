@@ -23,13 +23,13 @@ navbarToggle[0].addEventListener("click", () => {
 function openMobileNavbar() {
   navbar.classList.add("opened");
   navbarToggle[1].setAttribute("aria-label", "Close navigation menu.");
-  document.querySelector(".heroSection").style.visibility = "hidden";
+  // document.querySelector(".heroSection").style.visibility = "hidden";
 }
 
 function closeMobileNavbar() {
   navbar.classList.remove("opened");
   navbarToggle[1].setAttribute("aria-label", "Open navigation menu.");
-  document.querySelector(".heroSection").style.visibility = "visible";
+  // document.querySelector(".heroSection").style.visibility = "visible";
 }
 
 navbarToggle[1].addEventListener("click", () => {
