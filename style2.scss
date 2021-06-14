@@ -628,6 +628,9 @@ header {
   background: #161414;
   left: 0;
   right: 0;
+  @media screen and (min-width: 900px) {
+    background: transparent;
+  }
 }
 .navbar-menu.attached {
   left: 0;

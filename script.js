@@ -14,12 +14,9 @@ function closeMobileNavbar() {
 }
 
 navbarToggle[0].addEventListener("click", () => {
-  console.log("click");
   if (navbar.classList.contains("opened")) {
-    console.log("close");
     closeMobileNavbar();
   } else {
-    console.log("open");
     openMobileNavbar();
   }
 });
@@ -36,12 +33,9 @@ function closeMobileNavbar() {
 }
 
 navbarToggle[1].addEventListener("click", () => {
-  console.log("click");
   if (navbar.classList.contains("opened")) {
-    console.log("close");
     closeMobileNavbar();
   } else {
-    console.log("open");
     openMobileNavbar();
   }
 });

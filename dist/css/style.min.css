@@ -714,10 +714,7 @@ button {
 }
 
 .navbar-menu.detached {
-  @media screen and (min-width : 900px) {
-    background: #161414;
-  }
-
+  background: #161414;
   left: 0;
   top: 70px;
   right: 0;
@@ -787,6 +784,10 @@ button {
 @media screen and (min-width: 900px) {
   .heroText {
     margin-bottom: 1rem;
+  }
+
+  .navbar-menu.detached {
+    background: transparent;
   }
 
   .heroText h2 {
