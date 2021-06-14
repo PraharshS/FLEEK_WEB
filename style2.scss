@@ -54,7 +54,7 @@ header {
 }
 .heroSection {
   background-color: #161414;
-  height: calc(100vh - 90px);
+  min-height: calc(100vh - 90px);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -86,7 +86,7 @@ header {
   }
   @media screen and (min-width: 900px) {
     padding-top: 2rem;
-    height: 70vh;
+    min-height: 70vh;
     .image {
       img {
         height: 250px;
