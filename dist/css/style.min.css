@@ -714,7 +714,10 @@ button {
 }
 
 .navbar-menu.detached {
-  background: #161414;
+  @media screen and (min-width : 900px) {
+    background: #161414;
+  }
+
   left: 0;
   top: 70px;
   right: 0;
