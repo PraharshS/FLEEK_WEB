@@ -370,6 +370,10 @@ header {
 }
 .slick-slider div {
   transition: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
 }
 .slick-track {
   display: flex !important;
@@ -383,6 +387,10 @@ header {
 .slick-center {
   @media screen and (min-width: 576px) {
     transform: translateY(-5%);
+    -webkit-transform: translateY(-5%);
+    -moz-transform: translateY(-5%);
+    -ms-transform: translateY(-5%);
+    -o-transform: translateY(-5%);
   }
 
   opacity: 1;
@@ -407,6 +415,10 @@ header {
       border-radius: 0.7rem;
       background: white;
       color: #000000 !important;
+      -webkit-border-radius: 0.7rem;
+      -moz-border-radius: 0.7rem;
+      -ms-border-radius: 0.7rem;
+      -o-border-radius: 0.7rem;
     }
     .secondBtn {
       font-size: 1rem;
@@ -416,6 +428,10 @@ header {
       border-radius: 0.7rem;
       background: #242424;
       color: white;
+      -webkit-border-radius: 0.7rem;
+      -moz-border-radius: 0.7rem;
+      -ms-border-radius: 0.7rem;
+      -o-border-radius: 0.7rem;
     }
   }
 }
@@ -456,7 +472,6 @@ header {
     a {
       padding: 0.8rem 2rem;
       background: linear-gradient(90deg, #009b84 0%, #3767c5 100%);
-
       //  background: linear-gradient(90deg, #0e0e0e 0%, #343434 100%);
       border-radius: 3rem;
       font-weight: bold;
@@ -473,8 +488,9 @@ header {
       bottom: -2px;
       border-radius: 3rem;
       border: none;
-      // background: linear-gradient(90deg, #5fe8c7 0%, #7ea8f8 100%);
+      //background: linear-gradient(90deg, #5fe8c7 0%, #7ea8f8 100%);
       filter: blur(2px);
+      -webkit-filter: blur(2px);
     }
   }
   height: auto;
@@ -585,6 +601,14 @@ header {
   transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out,
     opacity 0.2s ease-in-out;
   background-color: var(--navbar-text-color);
+  -webkit-transition: background-color 0.2s ease-in-out,
+    transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  -moz-transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out,
+    opacity 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out,
+    opacity 0.2s ease-in-out;
+  -o-transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out,
+    opacity 0.2s ease-in-out;
 }
 #navbar.opened {
   .navbar-toggle {
@@ -594,12 +618,20 @@ header {
         margin: 0;
         width: 30px;
         transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
       }
       &:last-child {
         position: absolute;
         margin: 0;
         width: 30px;
         transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
       }
       &:nth-child(2) {
         opacity: 0;
